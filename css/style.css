@@ -26,6 +26,22 @@
     color: #ffffff;
 }
 
+.wave{
+    height: 50px;
+    background-image: url("../img/wave.svg");
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.wave-upside-down{
+    height: 50px;
+    background-image: url("../img/wave.svg");
+    background-size: cover;
+    opacity: 0.1;
+    transform: rotateX(0.5turn);
+}
+
+
 
 /* Header */
 
@@ -81,9 +97,6 @@ header{
     color: #ffffff;
 }
 
-.image img{
-    width: 100%;
-}
 
 
 /* First box */
@@ -151,7 +164,7 @@ header{
 }
 
 .third-box-type{
-    background-color: #d3d3d3;
+    background-color: #E6E6E6;
     padding: 30px 0;
 }
 
@@ -173,19 +186,60 @@ header{
     font-size: 19px;
 }
 
+.image img{
+    width: 100%;
+}
+
+
 /* Big green box */
 
 .fourth-box-type{
-    background-color: #d3d3d3;
-    height: 560px;
-    padding: 30px 0;
+    background-color: #E6E6E6;
 }
 
-.col-1100{
-    height: 500px;
-    width: 100%;
-    background-color: #228b22;
-    border: 1px solid #000000;
+.big-box h2{
+    font-size: 50px;
+    padding: 70px 0 20px 0;
+    text-align: center;
+}
+
+.txt-under-big-box{
+    font-size: 19px;
+    text-align: center;
+}  
+
+.big-box{
+    text-align: center;
+}
+
+.stars{
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0
+}
+
+.text-stars{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.btn-purple{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #8ea1e1;
+    color: #ffffff;
+    border: 1px solid #8ea1e1;
+}
+
+.btn-purple:hover{
+    background-color: transparent;
+    border: 1px solid #8ea1e1;
+    color: #8ea1e1;
+}
+
+.space{
+    padding-bottom: 80px;
 }
 
 
